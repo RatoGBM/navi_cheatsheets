@@ -1,0 +1,20 @@
+% math
+
+# open unix basic calculator
+bc 
+
+# open insect calculator
+insect
+; https://github.com/sharkdp/insect
+
+# open numbat scientific calculator repl
+numbat
+; https://numbat.dev/
+
+# open GNU plotting repl
+gnuplot
+;http://www.gnuplot.info/
+
+# open visidata spreadsheet editor
+vd <spreadsheet>
+; visidata.org

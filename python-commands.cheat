@@ -1,0 +1,4 @@
+% python, conda
+
+# list conda environments
+conda env list

@@ -1,0 +1,28 @@
+% cybersec, extract
+
+# extract urls/email/keys/data using DataSurgeon
+ds <ds_option> <file>
+; https://github.com/Drew-Alleman/DataSurgeon
+$ ds_option: echo -e "--email\n--urls\n--hash\n--files\n--help"
+
+# get all strings from a (binary) file
+strings <file>
+
+$ file: ls -F | grep -v /
+$ path: ls -a
+
+% cybersec, encrypt, decrypt
+
+; https://github.com/FiloSottile/age
+# encrypt files using age
+age -e -p <file> > <output_file>
+
+# decrypt files using age
+age -d -p <file> > <decrypted_file>
+
+; https://www.kryptor.co.uk/
+# encrypt files or dirs using kryptor
+kryptor -e -p <path>
+
+# decrypt files using kryptor
+kryptor -d <path>

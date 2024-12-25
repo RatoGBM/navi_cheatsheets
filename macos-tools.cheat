@@ -1,0 +1,15 @@
+% macos
+
+# list USB connections
+ioreg -p IOUSB
+
+# play audio or music
+afplay <file>
+
+$ file: ls
+
+# start CMUS music/audio player
+cmus
+
+# start MusikCube music/audio player
+musikcube
