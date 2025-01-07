@@ -1,7 +1,7 @@
 % math
 
 # open unix basic calculator
-bc 
+bc
 
 # open insect calculator
 insect
@@ -18,3 +18,17 @@ gnuplot
 # open visidata spreadsheet editor
 vd <spreadsheet>
 ; visidata.org
+
+# factor number into primes
+factor <number>
+
+% math, notebook
+
+# start jupyter-lab notebook
+jupyter-lab
+; https://jupyterlab.readthedocs.io/en/latest/index.html
+
+# start marimo
+marimo edit <file>
+
+$ file: ls

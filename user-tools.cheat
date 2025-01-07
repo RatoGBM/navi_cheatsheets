@@ -1,0 +1,9 @@
+% filemanager
+
+# Open superfile file manager
+spf
+; https://superfile.netlify.app/overview/
+
+# Open Midnight commander file manager
+mc
+; https://midnight-commander.org/

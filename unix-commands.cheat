@@ -26,3 +26,20 @@ $ from_format: pandoc --list-input-formats
 $ to_format: pandoc --list-output-formats
 
 $ file: ls
+
+% random
+
+# random word with from unix word list
+shuf -n 1 /usr/share/dict/words
+
+# random number any range
+shuf -i 1-<number> -n 1
+
+# random number 0-32767
+echo $RANDOM
+
+% permissions
+
+# give execution permission to a file
+chmod +x <file>
+$ file: ls
